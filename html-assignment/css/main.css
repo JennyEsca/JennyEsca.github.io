@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header h1, footer{
+    background-color: lavender;
+}
+
+.site-title{
+    font-weight: bold;
+    color: pink;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+ }
+/* add 2px of blur and 1px border */
+
+ .container {
+    height: auto;
+    padding: 5%;
+ }
+
+ article ul li {
+    list-style-type: square;
+
+ }
+
+ article ul li:nth-child(odd){
+    background: rgb(210, 242, 206);
+ }
+
+ nav a {
+    text-decoration: none;
+    background-color: lavender;
+    padding: 1%;
+    border:solid 1px black;    
+ }
+
+ nav a:hover {background: rgb(155, 155, 220);
+    
+ }
+
+ nav a:active {color: pink;
+    
+ }
+
+ /* nav a:visited {color: black;
+    
+ } */
