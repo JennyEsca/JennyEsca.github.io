@@ -217,14 +217,14 @@ label{
 }
 
 input[type=text] { 
-    width: 965px;
+    width: 900px;
     height: 20px;
     margin: 8px;
     
 }
 
 textarea  { 
-    width: 965px;
+    width: 900px;
     height: 60px;
     margin: 8px;
     
