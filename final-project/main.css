@@ -77,7 +77,7 @@ header{
 
 
 
-.navegationlist ul li a{
+.navigationlist ul li a{
     list-style-type: none;
     text-decoration:none;
     color: #c78b07;
@@ -101,8 +101,10 @@ header{
 
 }
 
-.form{
-    width: 95%;
+.form > input{
+    width: 88%;
+    padding: 7px;
+    margin-left: 16px;
 
 }
 
@@ -115,7 +117,7 @@ i{
 }
 
 .welcome { 
-    background: url("../images/main-banner.jpg");
+    background: url("./images/main-banner.jpg");
     height: 590px;
     background-size: 740px 583px;
     background-position: center;
@@ -208,10 +210,10 @@ h2 {
 
 .sectionone{
     width: 676px;
-    height: 3030px;
+    height: 3050px;
     background-color:white;
 	padding: 15px;
-    padding-top: 40px;
+    padding-top: 30px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 
@@ -295,7 +297,7 @@ h2 {
 
 
 .vision { 
-    background-image: url("../images/vision.jpg");
+    background-image: url("./images/vision.jpg");
     background-size: 706px 320px;
     background-repeat: no-repeat;
     margin-top: 5px;
@@ -501,13 +503,60 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size:16px;
 }
+
+/* header {
+    display: flex;
+
+}
    
 .navegationlist {
-    overflow: hidden;
-    text-align: center;
-    display: block;
-}
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    } */
 
+    body{
+        background: #222222;
+        font-family: 'Open Sans', sans-serif;
+        font-size:16px;
+    }
+   
+    .navigationlist {
+        overflow: hidden;
+        text-align: center;
+        display: block;
+    }
+    .navigationlist .home a,
+    .navigationlist img,
+    .navigationlist a {
+        float: left;
+        color: #c78b07;
+        text-align: center;
+        padding: 27px 44px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: #222222;
+    }  
+    .navigationlist .home a,
+    .navigationlist a {
+        width: unset;
+        margin-top: 50px;
+        line-height: 0px;
+        margin-left: unset;
+        margin-right: unset;
+    }
+    .navigationlist a:hover {
+        background-color: #c78b07;
+        color: black;
+    }
+    .navigationlist img {
+        width: 100px;
+        height: 100px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-left: 120px;
+        background-color: #222222;
+    }
 
 
 
