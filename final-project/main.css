@@ -108,7 +108,7 @@ i{
 }
 
 .welcome { 
-    background: url("..//images/main-banner.jpg");
+    background: url("../images/main-banner.jpg");
     height: 590px;
     background-size: 740px 583px;
     background-position: center;
@@ -288,7 +288,7 @@ h2 {
 
 
 .vision { 
-    background-image: url("..//images/vision.jpg");
+    background-image: url("../images/vision.jpg");
     background-size: 706px 320px;
     background-repeat: no-repeat;
     margin-top: 5px;
