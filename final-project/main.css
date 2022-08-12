@@ -88,12 +88,17 @@ header{
 
 }
 
-.home a{
-    background-color: #c78b07;
+.home li a {   
     padding: 1.5rem;
     margin-left: 16px;
     margin-right: 16px;
     color: #222222;
+    
+}
+
+.home li {
+    background-color: #c78b07;
+
 }
 
 .form{
