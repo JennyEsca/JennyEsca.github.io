@@ -64,7 +64,6 @@ body{
 }
 
 
-
 .header,
 .navcontainer {
     display: flex;
@@ -153,7 +152,7 @@ form input[type="text"]{
 
 
 .welcome {
-    background-image: url("..//images/main-banner.jpg");
+    background-image: url(".//images/main-banner.jpg");
     height: 590px;
     background-size: 740px 583px;
     background-position: center;
@@ -570,7 +569,7 @@ footer p a:visited {
     }
     /* welcome Desktop*/
     .welcome {
-        background-image: url("..//images/main-banner.jpg");
+        background-image: url(".//images/main-banner.jpg");
         width: 1440px;
         background-size: cover;
         background-position: center;
@@ -770,7 +769,7 @@ footer p a:visited {
     }
 /* ===== Our vision Desktop ===== */
     .vision {
-        background-image: url("..//images/vision.jpg");
+        background-image: url(".//images/vision.jpg");
         height: 295px;
         background-size: cover;
         background-position: center center;
