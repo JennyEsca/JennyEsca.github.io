@@ -220,7 +220,7 @@ header .text1{
 
 .about {
     width: 706px;
-    height: 630px;
+    height: 700px;
     background-color:#ffe6ac;
 }
 
@@ -258,21 +258,29 @@ main .content img {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+
+
 .services h2 {
     font-weight: bold;
     font-size: 48px;
     padding-bottom: 15px;
 }
+
+
 .box img {
     width: 675px;
     height: 453px;
 }
+
+
 .services .box {
     width: 675px;
     background-color: #ffe6ac;
     margin-top: 15px;
     padding-bottom: 15px;
 }
+
+
 .box h3 {
     font-weight: bolder;
     font-size: 31px;
@@ -280,6 +288,8 @@ main .content img {
     padding-bottom: 29px;
     padding-left: 15px;
 }
+
+
 .box p {
     font-size: 14px;
     line-height: 21px;
@@ -287,6 +297,8 @@ main .content img {
     padding-bottom: 20px;
     padding-right: 10px;
 }
+
+
 .box button {
     width: 220px ;
     height: 95px;
@@ -296,6 +308,7 @@ main .content img {
     align-items: center;
     margin-left: 15px;
 }
+
 /* ===== Our vision mobile ===== */
 
 
@@ -305,16 +318,22 @@ main .content img {
     background-repeat: no-repeat;
     margin-top: 5px;
 }
+
+
 .vision h3 {
     color: white;
     font-weight: bold;
     font-size: 32px;
     padding-top: 40px;
 }
+
+
 .vision .container{
     width: 675px;
     padding: 15px;
 }
+
+
 .vision p {
     color: white;
     font-size: 14px;
@@ -323,6 +342,8 @@ main .content img {
     line-height: 21px;
     padding-bottom: 15px;
 }
+
+
 .vision button {
     width: 215px ;
     height: 95px;
@@ -344,21 +365,31 @@ main .content img {
     font-weight: bold;
     font-size: 48px;
 }
+
+
 .team .container-grid img {
     width: 675px;
     height: 453px;
 }
+
+
 .team .container-grid .one {
     padding-top: 25px;
 }
+
+
 .team .container-grid .two {
     padding-top: 15px;
 }
+
+
 .team div .box {
     width: 675px;
     height: 180px;
     background-color: #ffe6ac;        
 }
+
+
 .team h3 {
     font-weight: bolder;
     font-size: 31px;
@@ -366,6 +397,8 @@ main .content img {
     padding-bottom: 10px;
     padding-left: 15px;
 }
+
+
 .team h4 {
     font-weight: bolder;
     font-size: 14px;
@@ -376,6 +409,8 @@ main .content img {
     border-bottom: 2px solid #c78b07;
     margin-bottom: 10px;
 }
+
+
 .team .box p {
     font-size: 14px;
     line-height: 21px;
@@ -632,7 +667,7 @@ footer p a:visited {
     /* ============ MAIN Desktop========== */
     .about {
         width: 1440px;
-        height: 328px;
+        height: 300px;
         background-color:#ffe6ac;
         padding: 5px;
         padding-bottom: 5px;
@@ -713,6 +748,8 @@ footer p a:visited {
         align-items: center;
         margin-left: 15px;
     }
+
+
     .services .container-grid {
         width: 1155px;
         column-gap: 196px;
@@ -720,21 +757,29 @@ footer p a:visited {
         grid-template-rows: 50px 1fr 1fr;
         grid-template-columns: repeat(6, 1fr);
     }
+
+
     .services h2 {
         grid-row: 1;
         grid-column: 1 /span 3;
     }
+
+
     .services .one {
         width: 575px;
         background-color: #ffe6ac;
         grid-row: 2;
         grid-column: 1 / span 4;
     }
+
+
     .services .one img,
     .services .two img {
         width: 575px;
         height: 385px;
     }
+
+
     .services .one button,
     .services .two button {
         width: 540px;
@@ -745,31 +790,43 @@ footer p a:visited {
         align-items: center;
         margin-left: 15px;
     }
+
+
     .services .two {
         width: 575px;
         background-color: #ffe6ac;
         grid-row: 2;
         grid-column: 4 / span 7;
     }
+
+
     .services .three {
         height: 585px;
         background-color: #ffe6ac;
         grid-row: 3;
         grid-column: 1 / span 3;
     }
+
+
     .services .four {
         height: 585px;
         background-color: #ffe6ac;
         grid-row: 3;
         grid-column: 3 / span 5;
     }
+
+
     .services .five {
         height: 585px;
         background-color: #ffe6ac;
         grid-row: 3;
         grid-column: 5 / span 7;
     }
-/* ===== Our vision Desktop ===== */
+
+
+/*  Our vision Desktop */
+
+
     .vision {
         background-image: url("./images/web.jpg");
         height: 295px;
@@ -777,12 +834,15 @@ footer p a:visited {
         background-position: center center;
         margin-top: 5px;
     }
+
+
     .vision h3 {
         color: white;
         font-weight: bold;
         font-size: 32px;
         padding-top: 40px;
     }
+
     .vision .container{
         width: 1155px;
         padding-left: 135px;
@@ -795,6 +855,8 @@ footer p a:visited {
         line-height: 21px;
         padding-bottom: 15px;
     }
+
+
     .vision button {
         width: 215px ;
         height: 95px;
@@ -805,7 +867,7 @@ footer p a:visited {
     }
 
 
-/* ===== Our Team Desktop ===== */
+/*  Our Team Desktop */
 
 
     .team {
@@ -814,10 +876,14 @@ footer p a:visited {
         padding-left: 135px;
         padding-top: 40px;
     }
+
+
     .team .container-grid img {
         width: 577px;
         height: 390px;
     }
+
+
     .team .container-grid{
         width: 1155px;
         display: grid;
@@ -825,22 +891,29 @@ footer p a:visited {
         grid-template-rows: 67px 1fr 1fr ;
         row-gap: 0px;
     }
+
+
     .team h2 {
         font-weight: bold;
         font-size: 48px;
         grid-row: 1;
     }
+
+
     .team .container-grid .one {
         padding-top: 0px;
         grid-row: 2;
         grid-column:1;
     }
+
+
     .team .container-grid .two {
         padding-top: 0px;
         grid-row: 3;
         grid-column:2;
     }
     
+
     .team div .doe{ 
         width: 577px;
         height: 390px;
@@ -848,6 +921,8 @@ footer p a:visited {
         grid-row: 2;
         grid-column:2;    
     }
+
+
     .team div .bob{ 
         width: 577px;
         height: 390px;
@@ -864,6 +939,9 @@ footer p a:visited {
         padding-bottom: 10px;
         padding-left: 15px;
     }
+
+
+
     .team h4 {
         font-weight: bolder;
         font-size: 14px;
@@ -874,6 +952,9 @@ footer p a:visited {
         border-bottom: 2px solid #c78b07;
         margin-bottom: 10px;
     }
+
+
+
     .team .box p {
         font-size: 16px;
         line-height: 23px;
@@ -881,7 +962,11 @@ footer p a:visited {
         padding-bottom: 20px;
         padding-right: 10px;
     }
-/* ===== Contact us Desktop===== */
+
+
+/* Contact us Desktop */
+
+
     .contact {
         width: 1440px;
         height: 800px;
@@ -889,6 +974,9 @@ footer p a:visited {
         padding-left: 135px;
         padding-top: 50px;
     }
+
+
+
     .contact .container-grid {
         width: 1155px;
         display: grid;
@@ -897,6 +985,9 @@ footer p a:visited {
         row-gap: 0px;
         column-gap: 15px;
     }
+
+
+
     .contact h2 {
         font-weight: bold;
         font-size: 48px;
@@ -904,29 +995,41 @@ footer p a:visited {
         grid-row: 1;
         grid-column: 1
     }
+
+
     .container-grid .hours{
         padding-top: 25px;
         grid-column: 1 / span 3;
         grid-row: 3;
     }
+
+
     .contact .container-grid .form {
         grid-row: 2;
         grid-column: 1;
     }
+
+
     .contact .container-grid .location {
         width: 577px;
         grid-row: 2;
         grid-column: 2;
     }
+
+
     .contact h3 {
         font-weight: bolder;
         font-size: 31px;
         margin-bottom: 20px;
     }
+
+
     .contact .form label{
         margin-top: 20px;
         font-size: 14px;
     }
+
+
     .contact .form
     input[type=text] {
         width: 577px;
@@ -936,6 +1039,9 @@ footer p a:visited {
         outline: none;
         margin-bottom: 5px;
     }
+
+
+
     .contact .form
     input[type=text]#message {
         width: 577px;
@@ -945,6 +1051,8 @@ footer p a:visited {
         outline: none;
         margin-bottom: 15px;
     }
+
+
     .contact input[type=submit]{
         width: 61px ;
         height: 33px;
@@ -955,13 +1063,19 @@ footer p a:visited {
         font-size: 20px;
         align-self: center;
     }
-/* == Hours of operation mobile== */
+
+
+/* Hours of operation desktop */
+
+
     .contact .hours h3 {
         font-weight: bolder;
         font-size: 31px;
         margin-bottom: 20px;
         margin-top: 25px;
     }
+
+
     .hours table td{
         border: 1px solid black;
         text-align: left;
@@ -969,21 +1083,26 @@ footer p a:visited {
         font-size: 14px;
         padding: 15px;
     }
+
+
     .hours tr th{
         background-color: #ffe6ac;
         padding: 10px;
         border: 1px solid black;
         font-size: 14px;
     }
+
+
     .hours td:nth-child(2){
         width: 478px;
     }
-    /* == Location Desktop == */
-
+    /* Location Desktop  */
 
     .location h3 {
         padding-top: 0px;
     }
+
+
     .location iframe {
         width: 562px;
     }
@@ -1003,11 +1122,15 @@ footer p a:visited {
         padding-bottom: 5px;
         padding-left: 135px;
     }
+
+
     footer a:link {
         text-decoration: none;
     }
+
+
     footer p a:visited {
-        color:  #810;
+        color: #c78b07;
     }
 
 
